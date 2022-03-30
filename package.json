@@ -2,9 +2,13 @@
   "name": "encodji",
   "version": "1.0.0",
   "description": "",
-  "main": "test.js",
   "scripts": {
     "start": "parcel src/index.html --open"
+  },
+  "targets": {
+    "default": {
+      "distDir": "./docs"
+    }
   },
   "author": "",
   "license": "ISC",
